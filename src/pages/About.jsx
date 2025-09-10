@@ -347,8 +347,9 @@ const About = () => {
             Salient Features
           </Typography>
         </Box>
-        <Grid container spacing={3} justifyContent="center">
-          <Grid item xs={12} md={8}>
+        <Grid container spacing={3} justifyContent="center" >
+          
+          <Grid size={{ xs: 12, md: 12}} maxWidth={"90%"}>
             <Box
               sx={{
                 display: "flex",
@@ -375,7 +376,7 @@ const About = () => {
               </Box>
               <Typography
                 variant="body1"
-                sx={{ textAlign: "center", flex: 1, mx: 2 }}
+                sx={{ textAlign: "left", flex: 1, mx: 2 }}
               >
                 Our Digital Marketing utilizes AI algorithms for marketing
                 strategies based on actionable insights derived from customer
@@ -384,7 +385,7 @@ const About = () => {
             </Box>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid size={{ xs: 12, md: 12}} maxWidth={"90%"}>
             <Box
               sx={{
                 display: "flex",
@@ -411,7 +412,7 @@ const About = () => {
               </Box>
               <Typography
                 variant="body1"
-                sx={{ textAlign: "center", flex: 1, mx: 2,fontSize:"14" }}
+                sx={{ textAlign: "left", flex: 1, mx: 2,fontSize:"14" }}
               >
                 We analyze key metrics, such as website traffic, conversions,
                 and engagement rates to optimize marketing efforts for better
@@ -420,7 +421,7 @@ const About = () => {
             </Box>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid size={{ xs: 12, md: 12}} maxWidth={"90%"}>
             <Box
               sx={{
                 display: "flex",
@@ -447,7 +448,7 @@ const About = () => {
               </Box>
               <Typography
                 variant="body1"
-                sx={{ textAlign: "center", flex: 1, mx: 2 }}
+                sx={{ textAlign: "left", flex: 1, mx: 2 }}
               >
                 We use real-time analytics and AI-powered tools to make agile
                 marketing decisions, responding quickly to changing market
@@ -456,7 +457,7 @@ const About = () => {
             </Box>
           </Grid>
 
-          <Grid item xs={12} md={8}>
+          <Grid size={{ xs: 12, md: 12}} maxWidth={"90%"}>
             <Box
               sx={{
                 display: "flex",
@@ -483,7 +484,7 @@ const About = () => {
               </Box>
               <Typography
                 variant="body1"
-                sx={{ textAlign: "center", flex: 1, mx: 2 }}
+                sx={{ textAlign: "left", flex: 1, mx: 2 }}
               >
                 Our Digital Marketing Services automate various marketing
                 processes to ensure consistent and timely execution of marketing
